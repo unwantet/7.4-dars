@@ -9,7 +9,7 @@ export default function HomeLayout() {
         <>
         <Header/>
         <Navbar/> 
-          <main>
+          <main className='align-content'>
             <Outlet />
           </main>
         </>

@@ -7,8 +7,8 @@ export default function Error() {
     if(error.status === 404) {
         return (
             <div id="notfound">
-            <div class="notfound">
-                <div class="notfound-404">
+            <div className="notfound">
+                <div className="notfound-404">
                     <h1>404</h1>
                     <h2>Page not found</h2>
                 </div>
@@ -20,8 +20,8 @@ export default function Error() {
     return (
         <>
         <div id="nodfound">
-		<div class="nodfound">
-			<div class="nodfound-404">
+		<div className="nodfound">
+			<div className="nodfound-404">
 				<h1>Oops!</h1>
 				<h2>Something went wrong</h2>
 			</div>
