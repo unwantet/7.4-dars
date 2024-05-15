@@ -37,6 +37,7 @@ export default function Navbar() {
                             2</span>
                     </div>
                     </NavLink>
+                    
                 </div>
 
             </div>

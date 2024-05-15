@@ -9,6 +9,8 @@ import {ErrorElement} from './components';
 
 //loader 
 import { loader as productsLoader } from './pages/Landing';
+import { loader as SingleLoader } from './pages/SingleProduct';
+import {loader as productLoader} from './pages/Products'
 
  function App() {
   const routes = createBrowserRouter([
@@ -28,6 +30,7 @@ import { loader as productsLoader } from './pages/Landing';
         {
           path : '/products',
           element: <Products/>,
+          loader: productLoader
         },
         {
           path : '/about',
@@ -36,6 +39,7 @@ import { loader as productsLoader } from './pages/Landing';
         {
           path : '/products/:id',
           element: <SingleProduct/>,
+          loader: SingleLoader
         },
         {
           path : '/cart',

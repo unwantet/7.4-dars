@@ -1,13 +1,13 @@
 import React from 'react'
 
 
-export default function FormInput({  type, url , name , label}) {
+export default function FormInput({  type, url , name , label , size}) {
     
 
     return (
         <label className="input input-bordered flex items-center gap-2 mb-5">
         {url ? <img src={url} alt="logo" className="w-6 h-6 opacity-45" /> : null}
-        <input type={type} className="grow" placeholder= {label} name={name}/>
+        <input type={type} className={`grow ${size}`} placeholder= {label} name={name}/>
         </label>
         
     )

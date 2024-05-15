@@ -8,16 +8,16 @@ import hero4 from '../assets/hero4.webp'
 const carouselImages = [hero1, hero2, hero3, hero4]
 
 function Hero() {
-  return <div className='grid grid-cols-1 lg:grid-cols-2 items-center'>
+  return <div className='grid grid-cols-1 lg:grid-cols-2 items-center mt-16'>
     <div>
         <h1 className='max-w-2xl text-4xl font-bold tracking-tight sm:text-6xl'> 
         We are changing the way people shop
         </h1>
         <p className='mt-8 max-w-2xl text-lg leading-8'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad expedita quaerat culpa magni blanditiis? Consectetur enim impedit sequi! Reprehenderit distinctio ad magni et. Quidem possimus nulla quam fuga dicta hic id, rem aperiam facilis reiciendis quo aspernatur accusantium expedita omnis.
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore repellat explicabo enim soluta temporibus asperiores aut obcaecati perferendis porro nobis.
         </p> 
         <div className='mt-10'>
-            <Link to='/products' className='btn btn-primary'>Our Products</Link>
+            <Link to='/products' className='btn btn-primary btn-xl text-lg'>Our Products</Link>
         </div>
     </div>
 
